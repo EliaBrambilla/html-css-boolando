@@ -40,7 +40,7 @@ header{
     font-size: 15px;
 }
 
-/* MAIN */
+/* PRIMA E SECONDA FILA */
 div.row {
     width: 100%;
     margin-bottom: 1.5em;
@@ -125,5 +125,8 @@ div > img {
 .item:hover .hover-img{
     display: block;
 }
+
+/* FOOTER /*
+
 
 
