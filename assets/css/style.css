@@ -40,3 +40,90 @@ header{
     font-size: 15px;
 }
 
+/* MAIN */
+div.row {
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.item {
+    display: inline-block;
+    width: calc(100%/3 - 4px);
+    vertical-align: top;
+    position: relative;
+}
+
+div > img {
+    width: 100%;
+}
+
+.heart {
+    font-size: 1em;
+    position: absolute;
+    top: 1em;
+    right: 0;
+    background-color: #ffffff;
+    padding: .1em .4em;
+}
+
+.hover-heart {
+    color: red; 
+    display: none;
+}
+
+.item:hover .hover-heart {
+    display: block;
+}
+
+.bg-settings {
+    font-weight: bold;
+    font-size: .8em;
+    padding: 0 .2em;
+    color: #ffffff;
+}
+
+.discount-and-green-position{
+    position: absolute;
+    left: .1em;
+    bottom: 4.5em;
+}
+
+.discount {
+    background-color: #eb0037;
+}
+
+.green {
+    background-color: #00875a;
+}
+
+.brand {
+    font-size: .8em;
+}
+
+.product-description {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.price {
+    font-weight: 600;
+    color: #FF5733;
+    font-size: .8em;
+}
+
+.full-price {
+    font-size: .8em;
+    text-decoration: line-through;
+}
+
+.hover-img {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.item:hover .hover-img{
+    display: block;
+}
+
+
