@@ -10,6 +10,7 @@ header{
     width: 100%;
     background-color: orange;
     padding: 10px 0px;
+    display: fixed;
 }
 
 .container{
