@@ -126,7 +126,63 @@ div > img {
     display: block;
 }
 
-/* FOOTER /*
+/* FOOTER */
+
+footer{
+    background-color: black;
+    width: 100%;
+}
+
+.footer-container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 0px;
+    margin-top: 50px;
+}
+
+footer li{
+    color: white;
+    list-style: none;
+}
+
+footer h2{
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    text-transform: normal;
+    padding-left: 5px;
+}
+
+li a{
+    color: white;
+}
+
+.flexmenu-footer{
+    display: flex;
+    color: white;
+}
+
+.flexmenu-footer li{
+    list-style: none;
+    flex-direction: row;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+h4{
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+/* EXTRA */
+.column:hover .wishlist{
+    color: red;
+}
 
 
 
